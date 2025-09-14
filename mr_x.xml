@@ -1,154 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-    <title>Rendez-vous avec Mr X (Archive complète)</title>
+    <title>Rendez-vous avec Mr X</title>
     <link>https://archive.org/details/rendezvous-avec-mr-x</link>
-    <description>Podcast complet depuis Archive.org</description>
-    <language>fr</language>
+    <description>Archive complète de l’émission Rendez-vous avec Mr X</description>
     
         <item>
-            <title>mr x 1999 06 05</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_1999_06_05.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_1999_06_05.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2002 02 09</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2002_02_09.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2002_02_09.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2002 10 26</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2002_10_26.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2002_10_26.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2002 11 02</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2002_11_02.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2002_11_02.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2003 10 04</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2003_10_04.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2003_10_04.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2003 10 11</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2003_10_11.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2003_10_11.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2004 11 27</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2004_11_27.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2004_11_27.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2005 02 26</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2005_02_26.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2005_02_26.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2005 03 12</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2005_03_12.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2005_03_12.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2007 01 06</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2007_01_06.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2007_01_06.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2007 05 26</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2007_05_26.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2007_05_26.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2009 05 09</title>
+            <title>mr_x_2009_05_09.mp3</title>
             <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_09.mp3" type="audio/mpeg" />
             <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_09.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
         </item>
+        
         <item>
-            <title>mr x 2009 05 16</title>
+            <title>mr_x_2009_05_16.mp3</title>
             <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_16.mp3" type="audio/mpeg" />
             <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_16.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
         </item>
+        
         <item>
-            <title>mr x 2009 05 23</title>
+            <title>mr_x_2009_05_23.mp3</title>
             <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_23.mp3" type="audio/mpeg" />
             <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_23.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
         </item>
+        
         <item>
-            <title>mr x 2011 02 12</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2011_02_12.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2011_02_12.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2011 02 19</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2011_02_19.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2011_02_19.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2011 03 05</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2011_03_05.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2011_03_05.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2011 03 12</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2011_03_12.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2011_03_12.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2011 04 02</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2011_04_02.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2011_04_02.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2013 04 27</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2013_04_27.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2013_04_27.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2013 11 23</title>
+            <title>mr_x_2013_11_23.mp3</title>
             <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2013_11_23.mp3" type="audio/mpeg" />
             <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2013_11_23.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
         </item>
-        <item>
-            <title>mr x 2014 01 18</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2014_01_18.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2014_01_18.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2014 03 22</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2014_03_22.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2014_03_22.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
-        <item>
-            <title>mr x 2015 03 07</title>
-            <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2015_03_07.mp3" type="audio/mpeg" />
-            <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2015_03_07.mp3</guid>
-            <pubDate>Sun, 14 Sep 2025 20:03:50 GMT</pubDate>
-        </item>
+        
 </channel>
 </rss>
