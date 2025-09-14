@@ -1,27 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 <channel>
-  <title>Rendez-vous avec Mr X (podcast reconstitué)</title>
-  <link>https://archive.org/details/rendezvous-avec-mr-x</link>
-  <description>
-    Archive des émissions de "Rendez-vous avec Mr X", reconstituée à partir des fichiers publics disponibles.
-  </description>
-  <language>fr-fr</language>
-  <lastBuildDate>Sun, 14 Sep 2025 09:00:00 +0000</lastBuildDate>
-  <generator>manual test</generator>
-  <itunes:author>Mr X</itunes:author>
-  <itunes:explicit>false</itunes:explicit>
-  <itunes:category text="History"/>
-  <itunes:image href="https://angles974-tech.github.io/mr-x-podcast/cover2.jpg"/>
-
-  <item>
-    <title>Rendez-vous avec Mr X — 5 juin 1999</title>
-    <description>Épisode diffusé le 05/06/1999</description>
-    <enclosure url="https://archive.org/download/mr_x_1999_06_05/mr_x_1999_06_05.mp3" length="72100000" type="audio/mpeg"/>
-    <guid>https://archive.org/download/mr_x_1999_06_05/mr_x_1999_06_05.mp3</guid>
-    <pubDate>Sat, 05 Jun 1999 20:00:00 +0000</pubDate>
+    <title>Rendez-vous avec Mr X (archive reconstituée)</title>
+    <link>https://archive.org/details/rendezvous-avec-mr-x</link>
+    <description>
+        Archive des émissions de "Rendez-vous avec Mr X" (France Inter), reconstituée à partir des fichiers publics.
+    </description>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 14 Sep 2025 09:00:00 +0000</lastBuildDate>
+    <generator>custom-mrx-rss</generator>
     <itunes:author>Mr X</itunes:author>
     <itunes:explicit>false</itunes:explicit>
-  </item>
+    <itunes:category text="History"/>
+    <itunes:image href="https://angles974-tech.github.io/mr-x-podcast/cover2.jpg"/>
+
+    <item>
+        <title>Rendez-vous avec Mr X — 5 juin 1999</title>
+        <link>https://archive.org/details/rendezvous-avec-mr-x</link>
+        <description>Épisode diffusé le 05/06/1999. Source : Archive.org</description>
+        <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_1999_06_05.mp3" length="40000000" type="audio/mpeg"/>
+        <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_1999_06_05.mp3</guid>
+        <pubDate>Sat, 05 Jun 1999 20:00:00 +0000</pubDate>
+        <itunes:author>Mr X</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+    </item>
 
 </channel>
 </rss>
+
