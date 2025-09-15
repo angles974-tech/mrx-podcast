@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss version="2.0">
 <channel>
     <title>Rendez-vous avec Mr X</title>
@@ -6,25 +6,25 @@
     <description>Archive complète de l’émission Rendez-vous avec Mr X</description>
     
         <item>
-            <title>mr_x_2009_05_09.mp3</title>
+            <title />
             <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_09.mp3" type="audio/mpeg" />
             <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_09.mp3</guid>
         </item>
         
         <item>
-            <title>mr_x_2009_05_16.mp3</title>
+            <title />
             <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_16.mp3" type="audio/mpeg" />
             <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_16.mp3</guid>
         </item>
         
         <item>
-            <title>mr_x_2009_05_23.mp3</title>
+            <title />
             <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_23.mp3" type="audio/mpeg" />
             <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2009_05_23.mp3</guid>
         </item>
         
         <item>
-            <title>mr_x_2013_11_23.mp3</title>
+            <title />
             <enclosure url="https://archive.org/download/rendezvous-avec-mr-x/mr_x_2013_11_23.mp3" type="audio/mpeg" />
             <guid>https://archive.org/download/rendezvous-avec-mr-x/mr_x_2013_11_23.mp3</guid>
         </item>
