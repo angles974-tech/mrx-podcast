@@ -1,0 +1,38 @@
+name: Deploy Podcast Feed
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Tous les jours à 3h du matin UTC
+    - cron: "0 3 * * *"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Run RSS generation script
+        run: |
+          python3 update_and_backup_rss.py
+
+      - name: Commit updated feed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add mr_x.xml backups/
+          git commit -m "Auto-regenerate feed via GitHub Action" || echo "No changes"
+          git push
+
+      - name: Purge GitHub Pages cache
+        run: |
+          curl -s -X PURGE https://angles974-tech.github.io/mr-x-podcast/mr_x.xml || true
+
