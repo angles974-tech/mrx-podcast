@@ -16,6 +16,10 @@ ARCHIVE_URL = "https://archive.org/download/rendezvous-avec-mr-x/"
 # Jaquette hébergée sur GitHub Pages
 COVER_URL = "https://angles974-tech.github.io/mr-x-podcast/assets/mr_x_cover.jpg"
 
+# Email Apple Podcasts (⚠️ à remplacer par ton vrai email)
+OWNER_NAME = "MrX"
+OWNER_EMAIL = "ton.email@exemple.com"
+
 # --- CREATION DOSSIER BACKUP ---
 os.makedirs(BACKUP_DIR, exist_ok=True)
 
@@ -30,25 +34,28 @@ print(f"✅ {len(files)} fichiers audio trouvés pour génération RSS")
 
 # --- GENERATION RSS ---
 rss_header = f'''<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0"
      xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
     <title>Rendez-vous avec Mr X</title>
     <link>https://archive.org/details/rendezvous-avec-mr-x</link>
-    <language>fr</language>
-    <copyright>© France Inter / Diffusion à but non lucratif</copyright>
+    <language>fr-FR</language>
+    <copyright>© 2025 MrX Podcast</copyright>
     <atom:link href="https://angles974-tech.github.io/mr-x-podcast/mr_x.xml"
                rel="self" type="application/rss+xml"/>
 
-    <itunes:author>Rendez-vous avec Mr X</itunes:author>
-    <itunes:subtitle>Un podcast culte de France Inter (1997–2015).</itunes:subtitle>
-    <itunes:summary>Rendez-vous avec Mr X, émission mythique animée par Patrick Pesnot sur France Inter. 
-Redécouvrez les enquêtes, mystères et grandes affaires qui ont marqué l’histoire.</itunes:summary>
+    <itunes:author>MrX</itunes:author>
+    <itunes:summary>Un podcast unique avec 700+ épisodes archivés.</itunes:summary>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:category text="History"/>
+    <itunes:subtitle>Rendez-vous avec MrX</itunes:subtitle>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+        <itunes:name>{OWNER_NAME}</itunes:name>
+        <itunes:email>{OWNER_EMAIL}</itunes:email>
+    </itunes:owner>
     <itunes:image href="{COVER_URL}"/>
+    <itunes:category text="Society & Culture"/>
     <lastBuildDate>{datetime.datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT")}</lastBuildDate>
 '''
 
@@ -63,8 +70,7 @@ for path in files:
     <item>
       <title>{title}</title>
       <link>https://archive.org/details/rendezvous-avec-mr-x</link>
-      <itunes:subtitle>{title}</itunes:subtitle>
-      <itunes:summary>{title} — épisode de Rendez-vous avec Mr X.</itunes:summary>
+      <description>{title} — épisode de Rendez-vous avec Mr X.</description>
       <enclosure url="{url}" type="audio/mpeg" length="{length}"/>
       <guid>{url}</guid>
       <pubDate>{datetime.datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT")}</pubDate>
