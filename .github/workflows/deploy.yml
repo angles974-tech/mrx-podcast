@@ -11,6 +11,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -20,17 +21,24 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Vérification présence du script
+        run: |
+          if [ ! -f "update_and_backup_rss.py" ]; then
+            echo "❌ Script update_and_backup_rss.py manquant"
+            exit 1
+          fi
+
       - name: Run RSS generation script
         run: |
-          python3 update_and_backup_rss.py
+          python3 update_and_backup_rss.py || exit 1
 
       - name: Commit updated feed
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add mr_x.xml backups/
-          git commit -m "Auto-regenerate feed via GitHub Action" || echo "No changes"
-          git push
+          git add mr_x.xml backups/ || true
+          git commit -m "Auto-regenerate feed via GitHub Action" || echo "Aucun changement à commiter"
+          git push || true
 
       - name: Purge GitHub Pages cache
         run: |
